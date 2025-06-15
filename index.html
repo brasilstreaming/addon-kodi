@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brasil Streaming | A sua central de entretenimento para Kodi</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Alpine.js for interactivity -->
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #020617; /* bg-slate-950 */
+            color: #e2e8f0; /* bg-slate-200 */
+        }
+        .gradient-text {
+            background: linear-gradient(90deg, #38bdf8, #818cf8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .card {
+            background-color: rgba(15, 23, 42, 0.5); /* bg-slate-900/50 */
+            border: 1px solid #1e293b; /* bg-slate-800 */
+            backdrop-filter: blur(12px);
+            transition: all 0.3s ease;
+        }
+        .card:hover {
+             border-color: #334155; /* bg-slate-700 */
+             transform: translateY(-4px);
+        }
+        .btn {
+            padding: 8px 16px;
+            font-size: 14px;
+            font-weight: 600;
+            border-radius: 6px;
+            transition: all 0.3s ease;
+        }
+        .btn-primary {
+            background: #2563eb; /* bg-blue-600 */
+            color: white;
+        }
+        .btn-primary:hover {
+            background: #1d4ed8; /* bg-blue-700 */
+        }
+        .btn-secondary {
+            background-color: #1e293b; /* bg-slate-800 */
+            border: 1px solid #334155; /* bg-slate-700 */
+            color: #cbd5e1; /* bg-slate-300 */
+        }
+        .btn-secondary:hover {
+            background-color: #334155;
+            border-color: #475569;
+        }
+        [x-cloak] { display: none !important; }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Header -->
+    <header class="fixed top-0 left-0 right-0 z-50 transition-all duration-300" id="navbar">
+        <div class="container mx-auto px-4">
+            <div class="flex items-center justify-between h-16">
+                <a href="#inicio" class="text-xl font-bold">
+                    <span class="gradient-text">Brasil Streaming</span>
+                </a>
+                <nav class="hidden md:flex items-center space-x-6 text-sm text-slate-300">
+                    <a href="#recursos" class="hover:text-white transition-colors">Recursos</a>
+                    <a href="#download" class="hover:text-white transition-colors">Download</a>
+                    <a href="#apoio" class="hover:text-white transition-colors">Apoiar</a>
+                    <a href="#faq" class="hover:text-white transition-colors">FAQ</a>
+                </nav>
+                <a href="#download" class="btn btn-primary hidden md:inline-block">Baixar Agora</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="inicio" class="pt-32 pb-20 text-center">
+            <div class="container mx-auto px-4">
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold text-white leading-tight">
+                    A sua central de <span class="gradient-text">entretenimento</span>
+                </h1>
+                <p class="mt-5 max-w-2xl mx-auto text-base md:text-lg text-slate-400">
+                    Filmes, séries e TV ao vivo com uma interface elegante, guia de programação completo e recursos inteligentes para o seu Kodi.
+                </p>
+                <div class="mt-8 flex justify-center items-center gap-3">
+                    <a href="#download" class="btn btn-primary shadow-lg shadow-blue-600/20">
+                        Download v2.1.0
+                    </a>
+                    <a href="#recursos" class="btn btn-secondary">
+                        Ver Recursos
+                    </a>
+                </div>
+                <!-- Mockup -->
+                <div class="mt-16 max-w-4xl mx-auto p-2 rounded-xl" style="background: linear-gradient(to top, #1e293b, #0f172a);">
+                    <img src="https://placehold.co/1200x675/020617/818cf8?text=Interface+do+Brasil+Streaming" 
+                         alt="Interface do addon Brasil Streaming em uma TV"
+                         class="rounded-lg shadow-2xl"
+                         onerror="this.onerror=null;this.src='https://placehold.co/1200x675/0f172a/ffffff?text=Erro+ao+carregar+imagem';">
+                </div>
+            </div>
+        </section>
+
+        <!-- What to Find Section -->
+        <section id="o-que-encontra" class="py-20">
+            <div class="container mx-auto px-4">
+                 <div class="text-center mb-12">
+                    <h2 class="text-3xl font-bold text-white">O que você encontra</h2>
+                    <p class="mt-3 text-slate-400 max-w-lg mx-auto">Todo o seu conteúdo favorito, organizado e fácil de acessar.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+                    <!-- Filmes -->
+                    <div class="card p-6 rounded-lg">
+                        <i data-lucide="film" class="h-8 w-8 text-sky-400 mb-4"></i>
+                        <h3 class="font-semibold text-white text-lg">Filmes</h3>
+                        <p class="text-sm text-slate-400 mt-2">Explore um vasto catálogo de filmes, dos clássicos aos últimos lançamentos, com pôsteres e informações detalhadas.</p>
+                    </div>
+                     <!-- Séries -->
+                    <div class="card p-6 rounded-lg">
+                        <i data-lucide="tv" class="h-8 w-8 text-indigo-400 mb-4"></i>
+                        <h3 class="font-semibold text-white text-lg">Séries</h3>
+                        <p class="text-sm text-slate-400 mt-2">Organize suas séries por temporadas e episódios. Ideal para maratonar sem se perder.</p>
+                    </div>
+                    <!-- Ao Vivo -->
+                    <div class="card p-6 rounded-lg">
+                        <i data-lucide="satellite-dish" class="h-8 w-8 text-rose-400 mb-4"></i>
+                        <h3 class="font-semibold text-white text-lg">TV ao Vivo</h3>
+                        <p class="text-sm text-slate-400 mt-2">Acesse canais de TV ao vivo com um guia de programação integrado para saber sempre o que está passando.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Key Features Section -->
+        <section id="recursos" class="py-20">
+            <div class="container mx-auto px-4 space-y-16">
+                 <!-- Feature 1: EPG -->
+                <div class="grid md:grid-cols-2 gap-10 items-center">
+                    <div class="pr-4">
+                        <span class="gradient-text font-semibold text-sm">Inteligente e Completo</span>
+                        <h3 class="text-2xl font-bold text-white mt-2">Guia de Programação (EPG)</h3>
+                        <p class="text-slate-400 mt-4">Nosso guia de TV (EPG) busca informações em múltiplas fontes para garantir que você tenha a programação mais precisa e atualizada. Veja o que está no ar, os horários e as sinopses com capas e pôsteres.</p>
+                    </div>
+                    <div class="card p-2 rounded-lg"><img src="https://placehold.co/600x338/1e293b/e2e8f0?text=Guia+EPG+Detalhado" alt="Guia EPG" class="rounded-md"></div>
+                </div>
+                <!-- Feature 2: Smart Playlist -->
+                 <div class="grid md:grid-cols-2 gap-10 items-center">
+                    <div class="card p-2 rounded-lg md:order-last"><img src="https://placehold.co/600x338/1e293b/e2e8f0?text=Playlist+Automática" alt="Maratona Inteligente" class="rounded-md"></div>
+                     <div class="pl-4">
+                        <span class="gradient-text font-semibold text-sm">Para Maratonistas</span>
+                        <h3 class="text-2xl font-bold text-white mt-2">Maratona Inteligente</h3>
+                        <p class="text-slate-400 mt-4">Ao dar play em um episódio, o addon cria automaticamente uma playlist com toda a temporada. Deixe rolar e curta sua maratona sem interrupções para escolher o próximo episódio.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technology Section -->
+        <section id="tecnologia" class="py-20">
+             <div class="container mx-auto px-4">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl font-bold text-white">Tecnologia e Desempenho</h2>
+                    <p class="mt-3 text-slate-400 max-w-lg mx-auto">Recursos que rodam nos bastidores para garantir a sua experiência.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div class="card p-6 rounded-lg">
+                        <i data-lucide="zap" class="h-7 w-7 text-amber-400 mb-3"></i>
+                        <h3 class="font-semibold text-white">Cache Otimizado</h3>
+                        <p class="text-sm text-slate-400 mt-2">Navegue com velocidade. O sistema de cache inteligente armazena as informações para que os menus carreguem de forma quase instantânea.</p>
+                    </div>
+                    <div class="card p-6 rounded-lg">
+                        <i data-lucide="refresh-cw" class="h-7 w-7 text-green-400 mb-3"></i>
+                        <h3 class="font-semibold text-white">Atualizações Automáticas</h3>
+                        <p class="text-sm text-slate-400 mt-2">Fique sempre com a versão mais recente sem esforço. O addon verifica e instala atualizações importantes sozinho.</p>
+                    </div>
+                    <div class="card p-6 rounded-lg">
+                        <i data-lucide="shield-check" class="h-7 w-7 text-sky-400 mb-3"></i>
+                        <h3 class="font-semibold text-white">Conexão Confiável</h3>
+                        <p class="text-sm text-slate-400 mt-2">Usamos técnicas para resolver domínios e encontrar as melhores rotas, diminuindo erros e problemas de conexão com os servidores.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Download Section -->
+        <section id="download" class="py-20 bg-slate-900/70">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-3xl font-bold text-white">Comece a Usar</h2>
+                <p class="mt-3 text-slate-400 max-w-xl mx-auto">Instale o repositório em poucos cliques e tenha acesso ao Brasil Streaming.</p>
+                <div class="mt-10">
+                     <a href="https://github.com/brasilstream-plus/repositorio/raw/main/repositorio.brasilstream-plus.zip" class="btn btn-primary shadow-lg shadow-blue-600/20 text-base py-3 px-6">
+                        Baixar Repositório
+                    </a>
+                </div>
+                <p class="text-xs text-slate-500 mt-4">Após instalar o repositório, vá em Instalar via repositório > Brasil Streaming.</p>
+            </div>
+        </section>
+
+        <!-- Donation Section -->
+        <section id="apoio" class="py-20">
+             <div class="container mx-auto px-4">
+                 <div class="card max-w-3xl mx-auto p-8 rounded-lg">
+                    <div class="grid md:grid-cols-2 gap-8 items-center">
+                        <div class="text-center md:text-left">
+                            <h2 class="text-2xl font-bold text-white">Apoie o Projeto</h2>
+                            <p class="text-slate-400 mt-3 text-sm">Sua doação ajuda a cobrir os custos de servidor e nos motiva a continuar desenvolvendo e melhorando o addon. Contamos com você!</p>
+                            <div x-data="{ copied: false }" class="mt-6">
+                                <label class="text-xs font-semibold text-slate-300">CHAVE PIX</label>
+                                <div class="mt-1 flex items-center gap-2">
+                                    <input id="pixKey" type="text" readonly value="00020126580014br.gov.bcb.pix013612345678-abcd-9012-efgh-i12345678901520400005303986540510.005802BR5925NOME DO BENEFICIADO6009SAO PAULO62070503***6304ABCD" class="bg-slate-900 border border-slate-700 rounded-md p-2 w-full text-slate-400 text-xs">
+                                    <button @click="navigator.clipboard.writeText(document.getElementById('pixKey').value); copied = true; setTimeout(() => copied = false, 2000)" class="btn btn-secondary p-2" title="Copiar Chave PIX">
+                                        <i data-lucide="copy" class="h-4 w-4" x-show="!copied"></i>
+                                        <i data-lucide="check" class="h-4 w-4 text-green-400" x-show="copied" x-cloak></i>
+                                    </button>
+                                </div>
+                                <p x-show="copied" x-transition class="text-green-400 mt-2 text-xs">Chave copiada!</p>
+                            </div>
+                        </div>
+                        <div class="p-3 bg-white rounded-lg w-full max-w-xs mx-auto">
+                            <img src="https://raw.githubusercontent.com/brasilstream-plus/repositorio/refs/heads/main/qrcode.png" 
+                                 alt="QR Code para doação via PIX" 
+                                 class="w-full rounded"
+                                 onerror="this.onerror=null;this.src='https://placehold.co/256x256/ffffff/000000?text=QR+Code+Indisponível';">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section id="faq" class="py-20">
+            <div class="container mx-auto px-4 max-w-3xl">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl font-bold text-white">Perguntas Frequentes</h2>
+                </div>
+                <div class="space-y-3" x-data="{ active: null }">
+                    <div class="border border-slate-800 rounded-lg">
+                        <button @click="active = active === 1 ? null : 1" class="w-full text-left p-4 flex justify-between items-center">
+                            <span class="font-semibold text-white">O addon é gratuito?</span>
+                            <i data-lucide="chevron-down" class="h-5 w-5 transition-transform text-slate-500" :class="{'rotate-180': active === 1}"></i>
+                        </button>
+                        <div x-show="active === 1" x-collapse x-cloak><div class="p-4 pt-0 text-slate-400 text-sm">Sim, o addon é totalmente gratuito. Os custos de manutenção são cobertos por doações voluntárias.</div></div>
+                    </div>
+                    <div class="border border-slate-800 rounded-lg">
+                        <button @click="active = active === 2 ? null : 2" class="w-full text-left p-4 flex justify-between items-center">
+                            <span class="font-semibold text-white">Funciona em qual versão do Kodi?</span>
+                            <i data-lucide="chevron-down" class="h-5 w-5 transition-transform text-slate-500" :class="{'rotate-180': active === 2}"></i>
+                        </button>
+                        <div x-show="active === 2" x-collapse x-cloak><div class="p-4 pt-0 text-slate-400 text-sm">O addon é compatível com Kodi 19 (Matrix), 20 (Nexus) e 21 (Omega). Recomendamos sempre usar a versão mais recente do Kodi.</div></div>
+                    </div>
+                    <div class="border border-slate-800 rounded-lg">
+                        <button @click="active = active === 3 ? null : 3" class="w-full text-left p-4 flex justify-between items-center">
+                            <span class="font-semibold text-white">Onde encontro o addon após instalar o repositório?</span>
+                            <i data-lucide="chevron-down" class="h-5 w-5 transition-transform text-slate-500" :class="{'rotate-180': active === 3}"></i>
+                        </button>
+                        <div x-show="active === 3" x-collapse x-cloak><div class="p-4 pt-0 text-slate-400 text-sm">Após instalar o repositório, vá em Add-ons > Instalar via repositório > Repositório Brasil Streaming > Add-ons de vídeo > Brasil Streaming > Instalar.</div></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="py-8 border-t border-slate-800/50">
+        <div class="container mx-auto px-4 text-center text-slate-500">
+            <p class="text-sm">&copy; 2025 Brasil Streaming. Todos os direitos reservados.</p>
+            <p class="text-xs mt-2">Este addon é um reprodutor de mídia e não hospeda conteúdo. Todo o conteúdo é fornecido por terceiros.</p>
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+        const navbar = document.getElementById('navbar');
+        window.onscroll = function () {
+            if (window.scrollY > 20) {
+                navbar.classList.add('bg-slate-950/80', 'backdrop-blur-sm', 'border-b', 'border-slate-800');
+            } else {
+                navbar.classList.remove('bg-slate-950/80', 'backdrop-blur-sm', 'border-b', 'border-slate-800');
+            }
+        };
+    </script>
+</body>
+</html>
