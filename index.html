@@ -5,18 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brasil Streaming | A sua central de entretenimento para Kodi</title>
     
-    <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     
-    <!-- Google Fonts: Inter -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     
-    <!-- Alpine.js for interactivity -->
-    <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
 
-    <!-- Lucide Icons -->
     <script src="https://unpkg.com/lucide@latest"></script>
 
     <style>
@@ -69,7 +65,6 @@
 </head>
 <body class="antialiased">
 
-    <!-- Header -->
     <header class="fixed top-0 left-0 right-0 z-50 transition-all duration-300" id="navbar">
         <div class="container mx-auto px-4">
             <div class="flex items-center justify-between h-16">
@@ -88,7 +83,6 @@
     </header>
 
     <main>
-        <!-- Hero Section -->
         <section id="inicio" class="pt-32 pb-20 text-center">
             <div class="container mx-auto px-4">
                 <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold text-white leading-tight">
@@ -99,13 +93,12 @@
                 </p>
                 <div class="mt-8 flex justify-center items-center gap-3">
                     <a href="#download" class="btn btn-primary shadow-lg shadow-blue-600/20">
-                        Download v2.1.0
+                        Download
                     </a>
                     <a href="#recursos" class="btn btn-secondary">
                         Ver Recursos
                     </a>
                 </div>
-                <!-- Mockup -->
                 <div class="mt-16 max-w-4xl mx-auto p-2 rounded-xl" style="background: linear-gradient(to top, #1e293b, #0f172a);">
                     <img src="https://placehold.co/1200x675/020617/818cf8?text=Interface+do+Brasil+Streaming" 
                          alt="Interface do addon Brasil Streaming em uma TV"
@@ -115,7 +108,6 @@
             </div>
         </section>
 
-        <!-- What to Find Section -->
         <section id="o-que-encontra" class="py-20">
             <div class="container mx-auto px-4">
                  <div class="text-center mb-12">
@@ -123,19 +115,16 @@
                     <p class="mt-3 text-slate-400 max-w-lg mx-auto">Todo o seu conteúdo favorito, organizado e fácil de acessar.</p>
                 </div>
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
-                    <!-- Filmes -->
                     <div class="card p-6 rounded-lg">
                         <i data-lucide="film" class="h-8 w-8 text-sky-400 mb-4"></i>
                         <h3 class="font-semibold text-white text-lg">Filmes</h3>
                         <p class="text-sm text-slate-400 mt-2">Explore um vasto catálogo de filmes, dos clássicos aos últimos lançamentos, com pôsteres e informações detalhadas.</p>
                     </div>
-                     <!-- Séries -->
-                    <div class="card p-6 rounded-lg">
+                     <div class="card p-6 rounded-lg">
                         <i data-lucide="tv" class="h-8 w-8 text-indigo-400 mb-4"></i>
                         <h3 class="font-semibold text-white text-lg">Séries</h3>
                         <p class="text-sm text-slate-400 mt-2">Organize suas séries por temporadas e episódios. Ideal para maratonar sem se perder.</p>
                     </div>
-                    <!-- Ao Vivo -->
                     <div class="card p-6 rounded-lg">
                         <i data-lucide="satellite-dish" class="h-8 w-8 text-rose-400 mb-4"></i>
                         <h3 class="font-semibold text-white text-lg">TV ao Vivo</h3>
@@ -145,11 +134,9 @@
             </div>
         </section>
 
-        <!-- Key Features Section -->
         <section id="recursos" class="py-20">
             <div class="container mx-auto px-4 space-y-16">
-                 <!-- Feature 1: EPG -->
-                <div class="grid md:grid-cols-2 gap-10 items-center">
+                 <div class="grid md:grid-cols-2 gap-10 items-center">
                     <div class="pr-4">
                         <span class="gradient-text font-semibold text-sm">Inteligente e Completo</span>
                         <h3 class="text-2xl font-bold text-white mt-2">Guia de Programação (EPG)</h3>
@@ -157,8 +144,7 @@
                     </div>
                     <div class="card p-2 rounded-lg"><img src="https://placehold.co/600x338/1e293b/e2e8f0?text=Guia+EPG+Detalhado" alt="Guia EPG" class="rounded-md"></div>
                 </div>
-                <!-- Feature 2: Smart Playlist -->
-                 <div class="grid md:grid-cols-2 gap-10 items-center">
+                <div class="grid md:grid-cols-2 gap-10 items-center">
                     <div class="card p-2 rounded-lg md:order-last"><img src="https://placehold.co/600x338/1e293b/e2e8f0?text=Playlist+Automática" alt="Maratona Inteligente" class="rounded-md"></div>
                      <div class="pl-4">
                         <span class="gradient-text font-semibold text-sm">Para Maratonistas</span>
@@ -169,7 +155,6 @@
             </div>
         </section>
 
-        <!-- Technology Section -->
         <section id="tecnologia" class="py-20">
              <div class="container mx-auto px-4">
                 <div class="text-center mb-12">
@@ -196,7 +181,6 @@
             </div>
         </section>
 
-        <!-- Download Section -->
         <section id="download" class="py-20 bg-slate-900/70">
             <div class="container mx-auto px-4 text-center">
                 <h2 class="text-3xl font-bold text-white">Comece a Usar</h2>
@@ -210,38 +194,28 @@
             </div>
         </section>
 
-        <!-- Donation Section -->
         <section id="apoio" class="py-20">
              <div class="container mx-auto px-4">
-                 <div class="card max-w-3xl mx-auto p-8 rounded-lg">
-                    <div class="grid md:grid-cols-2 gap-8 items-center">
-                        <div class="text-center md:text-left">
-                            <h2 class="text-2xl font-bold text-white">Apoie o Projeto</h2>
-                            <p class="text-slate-400 mt-3 text-sm">Sua doação ajuda a cobrir os custos de servidor e nos motiva a continuar desenvolvendo e melhorando o addon. Contamos com você!</p>
-                            <div x-data="{ copied: false }" class="mt-6">
-                                <label class="text-xs font-semibold text-slate-300">CHAVE PIX</label>
-                                <div class="mt-1 flex items-center gap-2">
-                                    <input id="pixKey" type="text" readonly value="00020126580014br.gov.bcb.pix013612345678-abcd-9012-efgh-i12345678901520400005303986540510.005802BR5925NOME DO BENEFICIADO6009SAO PAULO62070503***6304ABCD" class="bg-slate-900 border border-slate-700 rounded-md p-2 w-full text-slate-400 text-xs">
-                                    <button @click="navigator.clipboard.writeText(document.getElementById('pixKey').value); copied = true; setTimeout(() => copied = false, 2000)" class="btn btn-secondary p-2" title="Copiar Chave PIX">
-                                        <i data-lucide="copy" class="h-4 w-4" x-show="!copied"></i>
-                                        <i data-lucide="check" class="h-4 w-4 text-green-400" x-show="copied" x-cloak></i>
-                                    </button>
-                                </div>
-                                <p x-show="copied" x-transition class="text-green-400 mt-2 text-xs">Chave copiada!</p>
+                 <div class="card max-w-xl mx-auto p-8 rounded-lg">
+                    <div class="text-center">
+                        <h2 class="text-2xl font-bold text-white">Apoie o Projeto</h2>
+                        <p class="text-slate-400 mt-3 text-sm">Sua doação ajuda a cobrir os custos de servidor e nos motiva a continuar desenvolvendo e melhorando o addon. Contamos com você!</p>
+                        <div x-data="{ copied: false }" class="mt-6 max-w-md mx-auto">
+                            <label class="text-xs font-semibold text-slate-300">CHAVE PIX (COPIA E COLA)</label>
+                            <div class="mt-1 flex items-center gap-2">
+                                <input id="pixKey" type="text" readonly value="00020126720014br.gov.bcb.pix0117cartoes@bb.com.br0229Pagamento de fatura de cartão5204000053039865802BR5913DIRECAO GERAL6008BRASILIA62290525CARTAO1655375210000010049630411C2" class="bg-slate-900 border border-slate-700 rounded-md p-2 w-full text-slate-400 text-xs text-center">
+                                <button @click="navigator.clipboard.writeText(document.getElementById('pixKey').value); copied = true; setTimeout(() => copied = false, 2000)" class="btn btn-secondary p-2" title="Copiar Chave PIX">
+                                    <i data-lucide="copy" class="h-4 w-4" x-show="!copied"></i>
+                                    <i data-lucide="check" class="h-4 w-4 text-green-400" x-show="copied" x-cloak></i>
+                                </button>
                             </div>
-                        </div>
-                        <div class="p-3 bg-white rounded-lg w-full max-w-xs mx-auto">
-                            <img src="https://raw.githubusercontent.com/brasilstream-plus/repositorio/refs/heads/main/qrcode.png" 
-                                 alt="QR Code para doação via PIX" 
-                                 class="w-full rounded"
-                                 onerror="this.onerror=null;this.src='https://placehold.co/256x256/ffffff/000000?text=QR+Code+Indisponível';">
+                            <p x-show="copied" x-transition class="text-green-400 mt-2 text-xs">Chave copiada!</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- FAQ Section -->
         <section id="faq" class="py-20">
             <div class="container mx-auto px-4 max-w-3xl">
                 <div class="text-center mb-12">
@@ -274,7 +248,6 @@
         </section>
     </main>
     
-    <!-- Footer -->
     <footer class="py-8 border-t border-slate-800/50">
         <div class="container mx-auto px-4 text-center text-slate-500">
             <p class="text-sm">&copy; 2025 Brasil Streaming. Todos os direitos reservados.</p>
