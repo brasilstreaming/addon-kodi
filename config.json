@@ -6,7 +6,7 @@
         "tmdb": "404f82dca818618af6c280d9f5d95389"
     },
     "firebase": {
-        "databaseURL": "https://brasilstreaming-default-rtdb.firebaseio.com/"
+        "databaseURL": "https://brasilstreaming-default-rtdb.firebaseio.com"
     },
     "telegram": {
         "chat_id": "1956594785",
