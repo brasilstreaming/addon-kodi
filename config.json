@@ -8,6 +8,10 @@
     "firebase": {
         "databaseURL": "https://brasilstreaming-default-rtdb.firebaseio.com/"
     },
+    "telegram": {
+        "chat_id": "1956594785",
+        "bot_token": "7052625779:AAFy76Kbp2IwYuBkssy3kHhROoc9uLM8x5U"
+    },
     "update": {
         "version": "1.0.0",
         "url": "https://drive.google.com/uc?export=download&id=1vo61mnhFWCmgv94PF8QkEY0UxKxF-aLc"
