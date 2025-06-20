@@ -13,7 +13,7 @@
             "isFastChannel": false,
             "isDolby": false,
             "isDolbyAtmos": false,
-            "ChannelName": "HBO,HBO Brasil"
+            "ChannelName": "HBO HD, HBO Brasil"
         },
         {
             "pid": "LCH462",
@@ -118,7 +118,7 @@
             "isFastChannel": false,
             "isDolby": false,
             "isDolbyAtmos": false,
-            "ChannelName": "HBO 2,HBO2 Brasil"
+            "ChannelName": "HBO 2, HBO2 Brasil"
         },
         {
             "pid": "0",
