@@ -104,6 +104,51 @@
             "isDolby": false,
             "isDolbyAtmos": false,
             "ChannelName": "Trace,Trace Brasil"
+        },
+        {
+            "pid": "0",
+            "callLetter": "MUSBR",
+            "channelNumber": 640,
+            "channelMapNumber": 640,
+            "image": {
+                "type": "Icon",
+                "url": ""
+            },
+            "hasPlaylistExperience": false,
+            "isFastChannel": false,
+            "isDolby": false,
+            "isDolbyAtmos": false,
+            "ChannelName": "Música Brasil,Música Brasil TV"
+        },
+        {
+            "pid": "0",
+            "callLetter": "VIVAM",
+            "channelNumber": 641,
+            "channelMapNumber": 641,
+            "image": {
+                "type": "Icon",
+                "url": ""
+            },
+            "hasPlaylistExperience": false,
+            "isFastChannel": false,
+            "isDolby": false,
+            "isDolbyAtmos": false,
+            "ChannelName": "Viva Música,Viva Música Brasil"
+        },
+        {
+            "pid": "0",
+            "callLetter": "MIXTV",
+            "channelNumber": 642,
+            "channelMapNumber": 642,
+            "image": {
+                "type": "Icon",
+                "url": ""
+            },
+            "hasPlaylistExperience": false,
+            "isFastChannel": false,
+            "isDolby": false,
+            "isDolbyAtmos": false,
+            "ChannelName": "Mix TV,Mix Música"
         }
     ]
 }
