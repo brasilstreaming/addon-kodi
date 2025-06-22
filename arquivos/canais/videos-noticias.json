@@ -13,7 +13,7 @@
             "isFastChannel": false,
             "isDolby": false,
             "isDolbyAtmos": false,
-            "ChannelName": "Globo News"
+            "ChannelName": "Globo News, Rede Globo News"
         },
         {
             "pid": "LCH4068",
@@ -28,7 +28,7 @@
             "isFastChannel": false,
             "isDolby": false,
             "isDolbyAtmos": false,
-            "ChannelName": "CNN Brasil"
+            "ChannelName": "CNN Brasil, CNN Brazil"
         },
         {
             "pid": "LCH7064",
@@ -43,7 +43,7 @@
             "isFastChannel": false,
             "isDolby": false,
             "isDolbyAtmos": false,
-            "ChannelName": "CNN Money"
+            "ChannelName": "CNN Money, CNN Financial"
         },
         {
             "pid": "LCH2091",
@@ -58,7 +58,7 @@
             "isFastChannel": false,
             "isDolby": false,
             "isDolbyAtmos": false,
-            "ChannelName": "Record News"
+            "ChannelName": "Record News, Rede Record News"
         },
         {
             "pid": "LCH7065",
@@ -73,7 +73,97 @@
             "isFastChannel": false,
             "isDolby": false,
             "isDolbyAtmos": false,
-            "ChannelName": "TIMES EXCLUSIVO CNBC"
+            "ChannelName": "TIMES EXCLUSIVO CNBC, CNBC Exclusive"
+        },
+        {
+            "pid": "0",
+            "callLetter": "BBNWS",
+            "channelNumber": 580,
+            "channelMapNumber": 580,
+            "image": {
+                "type": "Icon",
+                "url": ""
+            },
+            "hasPlaylistExperience": false,
+            "isFastChannel": false,
+            "isDolby": false,
+            "isDolbyAtmos": false,
+            "ChannelName": "Band News, BandNews TV"
+        },
+        {
+            "pid": "0",
+            "callLetter": "JOVEM",
+            "channelNumber": 581,
+            "channelMapNumber": 581,
+            "image": {
+                "type": "Icon",
+                "url": ""
+            },
+            "hasPlaylistExperience": false,
+            "isFastChannel": false,
+            "isDolby": false,
+            "isDolbyAtmos": false,
+            "ChannelName": "Jovem Pan News, Jovem Pan"
+        },
+        {
+            "pid": "0",
+            "callLetter": "RBCTV",
+            "channelNumber": 585,
+            "channelMapNumber": 585,
+            "image": {
+                "type": "Icon",
+                "url": ""
+            },
+            "hasPlaylistExperience": false,
+            "isFastChannel": false,
+            "isDolby": false,
+            "isDolbyAtmos": false,
+            "ChannelName": "RBC News, RBC TV"
+        },
+        {
+            "pid": "0",
+            "callLetter": "SBTNW",
+            "channelNumber": 583,
+            "channelMapNumber": 583,
+            "image": {
+                "type": "Icon",
+                "url": ""
+            },
+            "hasPlaylistExperience": false,
+            "isFastChannel": false,
+            "isDolby": false,
+            "isDolbyAtmos": false,
+            "ChannelName": "SBT News, SBT Jornalismo"
+        },
+        {
+            "pid": "0",
+            "callLetter": "REDETV",
+            "channelNumber": 587,
+            "channelMapNumber": 587,
+            "image": {
+                "type": "Icon",
+                "url": ""
+            },
+            "hasPlaylistExperience": false,
+            "isFastChannel": false,
+            "isDolby": false,
+            "isDolbyAtmos": false,
+            "ChannelName": "RedeTV! News, RedeTV! Jornalismo"
+        },
+        {
+            "pid": "0",
+            "callLetter": "CULTN",
+            "channelNumber": 589,
+            "channelMapNumber": 589,
+            "image": {
+                "type": "Icon",
+                "url": ""
+            },
+            "hasPlaylistExperience": false,
+            "isFastChannel": false,
+            "isDolby": false,
+            "isDolbyAtmos": false,
+            "ChannelName": "Cultura News, TV Cultura News"
         }
     ]
 }
