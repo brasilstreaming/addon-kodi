@@ -241,19 +241,19 @@
             "ChannelName": "FX,FX Brasil"
         },
         {
-            "pid": "0",
-            "callLetter": "HBO",
-            "channelNumber": 670,
-            "channelMapNumber": 670,
+            "pid": "LCH182",
+            "callLetter": "HDHBB",
+            "channelNumber": 665,
+            "channelMapNumber": 665,
             "image": {
                 "type": "Icon",
-                "url": ""
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/03/16/3163537_068A70F63E96FC68.png"
             },
             "hasPlaylistExperience": false,
             "isFastChannel": false,
             "isDolby": false,
             "isDolbyAtmos": false,
-            "ChannelName": "HBO HD,HBO Brasil"
+            "ChannelName": "HBO HD, HBO Brasil"
         },
         {
             "pid": "0",
