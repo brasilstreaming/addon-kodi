@@ -13,7 +13,7 @@
             "isFastChannel": false,
             "isDolby": false,
             "isDolbyAtmos": false,
-            "ChannelName": "Globo, Globo SP, Tv Globo, Rede Globo, Globo Brasil"
+            "ChannelName": "Globo, Tv Globo, Rede Globo, Globo Brasil"
         },
         {
             "pid": "LCH3649",
@@ -43,7 +43,7 @@
             "isFastChannel": false,
             "isDolby": false,
             "isDolbyAtmos": false,
-            "ChannelName": "SBT SP, SBT, Sistema Brasileiro de Televisão, SBT Brasil"
+            "ChannelName": "SBT, Sistema Brasileiro de Televisão, SBT Brasil"
         },
         {
             "pid": "LCH5685",
@@ -58,7 +58,7 @@
             "isFastChannel": false,
             "isDolby": false,
             "isDolbyAtmos": false,
-            "ChannelName": "Band, Band SP, Bandeirantes, Rede Bandeirantes, Band Brasil, TV Bandeirantes"
+            "ChannelName": "Band, Bandeirantes, Rede Bandeirantes, Band Brasil, TV Bandeirantes"
         },
         {
             "pid": "LCH4050",
@@ -88,7 +88,7 @@
             "isFastChannel": false,
             "isDolby": false,
             "isDolbyAtmos": false,
-            "ChannelName": "Record, Record SP, RecordTV, Rede Record, TV Record"
+            "ChannelName": "Record, RecordTV, Rede Record, TV Record"
         },
         {
             "pid": "LCH4071",
@@ -133,7 +133,7 @@
             "isFastChannel": false,
             "isDolby": false,
             "isDolbyAtmos": false,
-            "ChannelName": "TV Cultura, Cultura, Televisão Cultura, Cultura TV, TV Cultura SP"
+            "ChannelName": "TV Cultura, Cultura, Televisão Cultura, Cultura TV"
         },
         {
             "pid": "0",
@@ -148,7 +148,7 @@
             "isFastChannel": false,
             "isDolby": false,
             "isDolbyAtmos": false,
-            "ChannelName": "TV Gazeta, Gazeta, Televisão Gazeta, Gazeta TV, TV Gazeta SP"
+            "ChannelName": "TV Gazeta, Gazeta, Televisão Gazeta, Gazeta TV"
         },
         {
             "pid": "0",
@@ -223,7 +223,7 @@
             "isFastChannel": false,
             "isDolby": false,
             "isDolbyAtmos": false,
-            "ChannelName": "TV Aparecida, Aparecida TV, TV Aparecida SP, Televisão Aparecida"
+            "ChannelName": "TV Aparecida, Aparecida TV, Televisão Aparecida"
         },
         {
             "pid": "0",
