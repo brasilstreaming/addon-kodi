@@ -13,7 +13,7 @@
             "isFastChannel": false,
             "isDolby": false,
             "isDolbyAtmos": false,
-            "ChannelName": "Globo, Tv Globo, Rede Globo, Globo Brasil"
+            "ChannelName": "Globo, Tv Globo, Rede Globo, Globo Brasil, Globo SP"
         },
         {
             "pid": "LCH3649",
@@ -28,7 +28,7 @@
             "isFastChannel": false,
             "isDolby": false,
             "isDolbyAtmos": false,
-            "ChannelName": "TV Brasil, Televisão Brasil, Brasil TV, TV Brasil Nacional"
+            "ChannelName": "TV Brasil, Televisão Brasil, Brasil TV, TV Brasil Nacional, TV Brasil SP"
         },
         {
             "pid": "LCH7143",
@@ -43,7 +43,7 @@
             "isFastChannel": false,
             "isDolby": false,
             "isDolbyAtmos": false,
-            "ChannelName": "SBT, Sistema Brasileiro de Televisão, SBT Brasil"
+            "ChannelName": "SBT, Sistema Brasileiro de Televisão, SBT Brasil, SBT SP"
         },
         {
             "pid": "LCH5685",
@@ -58,7 +58,7 @@
             "isFastChannel": false,
             "isDolby": false,
             "isDolbyAtmos": false,
-            "ChannelName": "Band, Bandeirantes, Rede Bandeirantes, Band Brasil, TV Bandeirantes"
+            "ChannelName": "Band, Bandeirantes, Rede Bandeirantes, Band Brasil, TV Bandeirantes, Band SP"
         },
         {
             "pid": "LCH4050",
@@ -73,7 +73,7 @@
             "isFastChannel": false,
             "isDolby": false,
             "isDolbyAtmos": false,
-            "ChannelName": "Rede Brasil, TV Rede Brasil, RBTV, Rede Brasil de Televisão"
+            "ChannelName": "Rede Brasil, TV Rede Brasil, RBTV, Rede Brasil de Televisão, Rede Brasil SP"
         },
         {
             "pid": "LCH7145",
@@ -88,7 +88,7 @@
             "isFastChannel": false,
             "isDolby": false,
             "isDolbyAtmos": false,
-            "ChannelName": "Record, RecordTV, Rede Record, TV Record"
+            "ChannelName": "Record, RecordTV, Rede Record, TV Record, Record SP"
         },
         {
             "pid": "LCH4071",
@@ -103,7 +103,7 @@
             "isFastChannel": false,
             "isDolby": false,
             "isDolbyAtmos": false,
-            "ChannelName": "RedeTV, Rede Tv, RedeTV!, TV RedeTV, Rede TV Brasil"
+            "ChannelName": "RedeTV, Rede Tv, RedeTV!, TV RedeTV, Rede TV Brasil, RedeTV SP"
         },
         {
             "pid": "LCH3651",
@@ -118,7 +118,7 @@
             "isFastChannel": false,
             "isDolby": false,
             "isDolbyAtmos": false,
-            "ChannelName": "Travel Box Brazil, Travel Box Brasil, TV Travel Box, Travel Box"
+            "ChannelName": "Travel Box Brazil, Travel Box Brasil, TV Travel Box, Travel Box, Travel Box Brazil SP"
         },
         {
             "pid": "0",
@@ -133,7 +133,7 @@
             "isFastChannel": false,
             "isDolby": false,
             "isDolbyAtmos": false,
-            "ChannelName": "TV Cultura, Cultura, Televisão Cultura, Cultura TV"
+            "ChannelName": "TV Cultura, Cultura, Televisão Cultura, Cultura TV, TV Cultura SP"
         },
         {
             "pid": "0",
@@ -148,7 +148,7 @@
             "isFastChannel": false,
             "isDolby": false,
             "isDolbyAtmos": false,
-            "ChannelName": "TV Gazeta, Gazeta, Televisão Gazeta, Gazeta TV"
+            "ChannelName": "TV Gazeta, Gazeta, Televisão Gazeta, Gazeta TV, TV Gazeta SP"
         },
         {
             "pid": "0",
@@ -163,7 +163,7 @@
             "isFastChannel": false,
             "isDolby": false,
             "isDolbyAtmos": false,
-            "ChannelName": "RIT, Rede Internacional de Televisão, RIT TV, TV RIT, RIT Brasil"
+            "ChannelName": "RIT, Rede Internacional de Televisão, RIT TV, TV RIT, RIT Brasil, RIT SP"
         },
         {
             "pid": "0",
@@ -177,8 +177,8 @@
             "hasPlaylistExperience": false,
             "isFastChannel": false,
             "isDolby": false,
-            "isDolbyAtmos": false,
-            "ChannelName": "CNT, Central Nacional de Televisão, CNT TV, TV CNT, CNT Brasil"
+            "is_within": false,
+            "ChannelName": "CNT, Central Nacional de Televisão, CNT TV, TV CNT, CNT Brasil, CNT SP"
         },
         {
             "pid": "0",
@@ -193,7 +193,7 @@
             "isFastChannel": false,
             "isDolby": false,
             "isDolbyAtmos": false,
-            "ChannelName": "Canção Nova, TV Canção Nova, Canção Nova TV, TVCN"
+            "ChannelName": "Canção Nova, TV Canção Nova, Canção Nova TV, TVCN, Canção Nova SP"
         },
         {
             "pid": "0",
@@ -208,7 +208,7 @@
             "isFastChannel": false,
             "isDolby": false,
             "isDolbyAtmos": false,
-            "ChannelName": "Ideal, Ideal TV, TV Ideal, Ideal Televisão, TV Ideal Brasil"
+            "ChannelName": "Ideal, Ideal TV, TV Ideal, Ideal Televisão, TV Ideal Brasil, Ideal SP"
         },
         {
             "pid": "0",
@@ -223,7 +223,7 @@
             "isFastChannel": false,
             "isDolby": false,
             "isDolbyAtmos": false,
-            "ChannelName": "TV Aparecida, Aparecida TV, Televisão Aparecida"
+            "ChannelName": "TV Aparecida, Aparecida TV, Televisão Aparecida, TV Aparecida SP"
         },
         {
             "pid": "0",
@@ -238,7 +238,7 @@
             "isFastChannel": false,
             "isDolby": false,
             "isDolbyAtmos": false,
-            "ChannelName": "TV Câmara, Câmara TV, Televisão Câmara, TV Câmara Brasil"
+            "ChannelName": "TV Câmara, Câmara TV, Televisão Câmara, TV Câmara Brasil, TV Câmara SP"
         },
         {
             "pid": "0",
@@ -253,7 +253,7 @@
             "isFastChannel": false,
             "isDolby": false,
             "isDolbyAtmos": false,
-            "ChannelName": "TV Senado, Senado TV, Televisão Senado, TV Senado Brasil"
+            "ChannelName": "TV Senado, Senado TV, Televisão Senado, TV Senado Brasil, TV Senado SP"
         },
         {
             "pid": "0",
@@ -268,7 +268,7 @@
             "isFastChannel": false,
             "isDolby": false,
             "isDolbyAtmos": false,
-            "ChannelName": "TV Escola, Escola TV, Televisão Escola, TV Escola Brasil"
+            "ChannelName": "TV Escola, Escola TV, Televisão Escola, TV Escola Brasil, TV Escola SP"
         },
         {
             "pid": "0",
@@ -283,7 +283,7 @@
             "isFastChannel": false,
             "isDolby": false,
             "isDolbyAtmos": false,
-            "ChannelName": "Futura, Canal Futura, TV Futura, Futura TV"
+            "ChannelName": "Futura, Canal Futura, TV Futura, Futura TV, Futura SP"
         }
     ]
 }
