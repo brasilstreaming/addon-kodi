@@ -5,7 +5,7 @@
             "categoria_id": 2,
             "nome": "Pesquisar‎ ",
             "icon": "https://brasilstreaming.netlify.app/arquivos/imagens/pesquisar.png",
-            "background": "https://raw.githubusercontent.com/brasilstream-plus/repositorio/refs/heads/main/imagens/fanart.jpg",
+            "background": "https://brasilstreaming.netlify.app/arquivos/imagens/fanart.jpg",
             "descricao": "Navegue com facilidade por um universo de filmes e séries usando uma busca simples e eficaz, perfeita para encontrar tanto novidades quanto clássicos atemporais.",
             "programacao": "https://api.themoviedb.org/3/discover/movie?api_key=404f82dca818618af6c280d9f5d95389&language=pt-BR&sort_by=primary_release_date.desc,vote_average.desc&with_text_query={realizarbusca}"
         },
