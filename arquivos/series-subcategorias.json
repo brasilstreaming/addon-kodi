@@ -4,7 +4,7 @@
             "id": 0,
             "categoria_id": 3,
             "nome": "Pesquisar‎ ",
-            "icon": "https://raw.githubusercontent.com/brasilstreaming/addon-kodi/refs/heads/main/arquivos/imagens/pesquisar.png",
+            "icon": "https://brasilstreaming.netlify.app/arquivos/imagens/pesquisar.png",
             "background": "https://raw.githubusercontent.com/brasilstream-plus/repositorio/refs/heads/main/imagens/fanart.jpg",
             "descricao": "Descubra rapidamente os filmes e séries mais recentes com uma busca prática e eficiente, trazendo as novidades mais empolgantes direto para você.",
             "programacao": "https://api.themoviedb.org/3/discover/tv?api_key=404f82dca818618af6c280d9f5d95389&language=pt-BR&sort_by=popularity.desc&with_text_query={realizarbusca}"
